@@ -1,6 +1,7 @@
 [
-    { "keys": ["ctrl+alt+w"], "command": "gnome_terminal","args": {"prog":"/home/admalledd/bin/pypy"} },
-    { "keys": ["ctrl+alt+e"], "command": "gnome_terminal","args": {"prog":"/usr/bin/python"} },
+    { "keys": ["ctrl+alt+e"], "command": "subprocess", "args": {"exe": "/usr/bin/python"}},
+    { "keys": ["ctrl+alt+w"], "command": "subprocess", "args": {"exe": "/home/admalledd/bin/pypy"}},
+
 
     { "keys": ["ctrl+k"], "command": "toggle_side_bar" },
     
