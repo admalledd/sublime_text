@@ -1,0 +1,16 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Git",
+		"HexViewer",
+		"INI",
+		"Package Control",
+		"PythonOpenModule",
+		"SublimeCodeIntel"
+	],
+	"repositories":
+	[
+		"https://github.com/kemayo/sublime-text-2-git"
+	]
+}
