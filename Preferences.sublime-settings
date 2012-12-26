@@ -4,6 +4,7 @@
     "font_size": 10,
     "tab_size": 4,
     "spell_check": true,
+    "default_line_ending": "unix",
     "translate_tabs_to_spaces": true
     
 }
