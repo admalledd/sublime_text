@@ -5,6 +5,11 @@
     "tab_size": 4,
     "spell_check": true,
     "default_line_ending": "unix",
+    "rulers": [80,120],
+    "highlight_line": true,
+    "caret_style": "phase",
+    "bold_folder_labels": true,
+    "highlight_modified_tabs":true,
     "translate_tabs_to_spaces": true
     
 }
