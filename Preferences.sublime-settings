@@ -1,15 +1,15 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-	"font_face": "Mono Dyslexic",
+    "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
     "font_size": 10,
     "tab_size": 4,
     "spell_check": true,
     "default_line_ending": "unix",
-    "rulers": [80,120],
+    "rulers": [80,120,160],
     "highlight_line": true,
     "caret_style": "phase",
     "bold_folder_labels": true,
     "highlight_modified_tabs":true,
-    "translate_tabs_to_spaces": true
+    "translate_tabs_to_spaces": true,
+    "show_panel_on_build":false
     
 }
