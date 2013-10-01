@@ -1,0 +1,13 @@
+{
+    "working_dir":"$project_path",
+    "shell":true,
+    "windows":
+    {
+        "cmd": ["start","cmd.exe","/C","$packages\\User\\sp.bat","${packages}\\..\\..\\..\\pypy-2.0-beta1\\pypy.exe","${project_path}\\main.py"]
+    },
+    "linux":
+    {
+        "cmd": ["gnome-terminal","-x","$packages/User/run_linux_program_sub","~/bin/pypy","${project_path}/main.py"]
+    }
+}
+
