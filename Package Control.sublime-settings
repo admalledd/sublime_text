@@ -5,9 +5,9 @@
 		"Git",
 		"HexViewer",
 		"INI",
+		"Jedi - Python autocompletion",
 		"Package Control",
-		"PythonOpenModule",
-		"SublimeCodeIntel"
+		"PythonOpenModule"
 	],
 	"repositories":
 	[

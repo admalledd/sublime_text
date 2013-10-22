@@ -1,5 +1,5 @@
 [
-    { "keys": ["ctrl+alt+e"], "command": "subprocess", "args": {"exe": "/usr/bin/python"}},
+    { "keys": ["ctrl+alt+e"], "command": "subprocess", "args": {"exe": "/home/admalledd/bin/pypy3"}},
     { "keys": ["ctrl+alt+w"], "command": "subprocess", "args": {"exe": "/home/admalledd/bin/pypy"}},
 
 

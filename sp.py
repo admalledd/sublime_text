@@ -28,7 +28,7 @@ def runner(exe,fname,curdir,args,clean_localdir=None,dat=None):
                 fname
               ]
 
-    elif sys.platform == "linux2":
+    elif sys.platform in ("linux2","linux" ):
         cmd = [
                 'gnome-terminal',
                 '-x',
@@ -40,11 +40,11 @@ def runner(exe,fname,curdir,args,clean_localdir=None,dat=None):
 
     if args is not None:
         cmd.append(*args)
-
-    print sp.list2cmdline(cmd)
+    print(sys.platform)
+    print(sp.list2cmdline(cmd))
     sublime.status_message('running subprocess')
 
     if sys.platform == "win32":
         proc = sp.Popen(cmd,cwd=curdir,shell=True)
-    elif sys.platform == 'linux2':
+    elif sys.platform in ("linux2","linux" ):
         proc = sp.Popen(cmd, stdin=sp.PIPE, stdout=sp.PIPE)
