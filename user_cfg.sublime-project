@@ -4,5 +4,8 @@
 		{
 			"path": "./"
 		}
-	]
+	],
+    "keymapper":[
+        { "keys": ["ctrl+alt+r"], "command": "subprocess", "args": {"exe": "/home/admalledd/bin/pypy3"}},
+    ]
 }

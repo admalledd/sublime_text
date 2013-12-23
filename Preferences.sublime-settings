@@ -18,6 +18,7 @@
 	[
 		"Vintage"
 	],
+	"python_interpreter_path": "pypy3",
 	"rulers":
 	[
 		80,
@@ -28,8 +29,5 @@
 	"spell_check": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
-
-    "python_interpreter_path": "pypy3",
-    
-    "auto_complete_triggers": [{"selector": "source.python", "characters": "."}],
+	"draw_white_space": "all"
 }
