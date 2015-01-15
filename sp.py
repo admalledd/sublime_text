@@ -28,6 +28,8 @@ def runner(exe,fname,curdir,exe_args,args,clean_localdir=None,dat=None):
                 fname+'""'
         cmd = [
                 'start',
+                '/D',
+                '"'+ curdir+'"',
                 "cmd.exe",
                 '/C',
                 subcmd
