@@ -30,5 +30,6 @@
 	"show_panel_on_build": false,
 	"spell_check": true,
 	"tab_size": 4,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"draw_white_space": "all"
 }

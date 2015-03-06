@@ -4,6 +4,13 @@
     { "keys": ["ctrl+alt+q"], "command": "subprocess", "args": {"exe": "/usr/bin/python2.7"}},
     //{ "keys": ["ctrl+alt+q"], "command": "subprocess", "args": {"exe": "/home/admalledd/Documents/code/python/SDL_test/venv-cpy2.7/bin/python2.7"}},
 
+    { "keys": ["ctrl+alt+r"], "command": "keymapper","args":{"key":"ctrl+alt+r"}},
+    { "keys": ["ctrl+alt+t"], "command": "keymapper","args":{"key":"ctrl+alt+t"}},
+    { "keys": ["ctrl+alt+y"], "command": "keymapper","args":{"key":"ctrl+alt+y"}},
+    { "keys": ["ctrl+alt+u"], "command": "keymapper","args":{"key":"ctrl+alt+u"}},
+    { "keys": ["ctrl+alt+i"], "command": "keymapper","args":{"key":"ctrl+alt+i"}},
+    { "keys": ["ctrl+alt+o"], "command": "keymapper","args":{"key":"ctrl+alt+o"}},
+
 
     { "keys": ["ctrl+k"], "command": "toggle_side_bar" },
     
@@ -79,8 +86,5 @@
             { "key": "setting.git_savvy.help_view", "operator": "equal", "operand": true }
         ]
     }
-
-
-
 
 ]
