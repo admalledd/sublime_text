@@ -30,7 +30,7 @@ def runner(exe,fname,curdir,args,clean_localdir=None,dat=None):
 
     elif sys.platform in ("linux2","linux" ):
         cmd = [
-                'gnome-terminal',
+                'xfce4-terminal',
                 '-x',
                 os.path.join(sublime.packages_path(),'User','run_linux_program_sub'),
                 curdir+"/",

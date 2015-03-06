@@ -1,11 +1,22 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Git",
+		"Arduino-like IDE",
+		"CMake",
+		"Diffy",
+		"GitSavvy",
 		"HexViewer",
+		"i3 wm",
 		"INI",
 		"Jedi - Python autocompletion",
+		"Jinja2",
+		"JsFormat",
+		"Markdown Preview",
+		"nginx",
 		"Package Control",
 		"PythonOpenModule",
 		"SideBarEnhancements"

@@ -12,19 +12,21 @@
 	"default_line_ending": "unix",
 	"font_face": "Mono Dyslexic",
 	"font_size": 10,
+	"gpu_window_buffer": "false",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Jedi - Python autocompletion"
 	],
-	"python_interpreter_path": "pypy3",
 	"rulers":
 	[
 		80,
 		120,
 		160
 	],
+	"show_encoding": true,
 	"show_panel_on_build": false,
 	"spell_check": true,
 	"tab_size": 4,

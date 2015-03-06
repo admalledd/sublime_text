@@ -1,6 +1,8 @@
 [
     { "keys": ["ctrl+alt+e"], "command": "subprocess", "args": {"exe": "/home/admalledd/bin/pypy3"}},
-    { "keys": ["ctrl+alt+w"], "command": "subprocess", "args": {"exe": "/home/admalledd/bin/pypy"}},
+    { "keys": ["ctrl+alt+w"], "command": "subprocess", "args": {"exe": "/home/admalledd/Documents/code/python/SDL_test/venv/bin/pypy"}},
+    { "keys": ["ctrl+alt+q"], "command": "subprocess", "args": {"exe": "/usr/bin/python2.7"}},
+    //{ "keys": ["ctrl+alt+q"], "command": "subprocess", "args": {"exe": "/home/admalledd/Documents/code/python/SDL_test/venv-cpy2.7/bin/python2.7"}},
 
 
     { "keys": ["ctrl+k"], "command": "toggle_side_bar" },
@@ -10,6 +12,75 @@
     { "keys": ["ctrl+pageup"], "command": "prev_view_in_stack" },
 
     { "keys": ["ctrl+tab"], "command": "next_view" },
-    { "keys": ["ctrl+shift+tab"], "command": "prev_view" }
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+
+    /////////////////
+    // COMMIT VIEW //
+    /////////////////
+
+    {
+        "keys": ["alt+enter"],
+        "command": "gs_commit_view_do_commit",
+        "context": [
+            { "key": "setting.git_savvy.get_long_text_view", "operator": "equal", "operand": true }
+        ]
+    },
+
+    ///////////////
+    // DIFF VIEW //
+    ///////////////
+
+    {
+        "keys": ["alt+enter"],
+        "command": "gs_diff_stage_or_reset_hunk",
+        "context": [
+            { "key": "setting.git_savvy.diff_view", "operator": "equal", "operand": true }
+        ]
+    },
+    {
+        "keys": ["alt+backspace"],
+        "command": "gs_diff_stage_or_reset_hunk",
+        "args": { "reset": true },
+        "context": [
+            { "key": "setting.git_savvy.diff_view", "operator": "equal", "operand": true },
+            { "key": "setting.git_savvy.diff_view.in_cached_mode", "operator": "equal", "operand": false }
+        ]
+    },
+
+    ////////////////
+    // BLAME VIEW //
+    ////////////////
+
+    {
+        "keys": ["alt+enter"],
+        "command": "gs_blame_open_commit",
+        "context": [
+            { "key": "setting.git_savvy.blame_view", "operator": "equal", "operand": true }
+        ]
+    },
+
+    ///////////////
+    // HELP VIEW //
+    ///////////////
+
+    {
+        "keys": ["alt+enter"],
+        "command": "gs_help_goto_link",
+        "context": [
+            { "key": "setting.git_savvy.help_view", "operator": "equal", "operand": true },
+            { "key": "selector", "operator": "equal", "operand": "meta.link.inline.markdown"}
+        ]
+    },
+    {
+        "keys": ["alt+backspace"],
+        "command": "gs_help_goto_previous",
+        "context": [
+            { "key": "setting.git_savvy.help_view", "operator": "equal", "operand": true }
+        ]
+    }
+
+
+
 
 ]
